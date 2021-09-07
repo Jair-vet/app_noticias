@@ -6,9 +6,13 @@ class TabsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text('Hola Mundo'),
-     ),
+      body: PageView(
+        children: [
+          Container(
+            color: Colors.red,
+          )
+        ],
+      ),
    );
   }
 }
