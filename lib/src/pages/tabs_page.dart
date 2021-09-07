@@ -10,6 +10,10 @@ class TabsPage extends StatelessWidget {
         children: [
           Container(
             color: Colors.red,
+          ),
+
+          Container(
+            color: Colors.green,
           )
         ],
       ),
