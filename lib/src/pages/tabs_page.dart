@@ -20,7 +20,7 @@ class _Navegacion extends StatelessWidget {
     return BottomNavigationBar(
       items: [
         BottomNavigationBarItem(icon: Icon(Icons.person_outline), title: Text('Para ti')),
-        BottomNavigationBarItem(icon: Icon(Icons.person_outline), title: Text('Para ti'))
+        BottomNavigationBarItem(icon: Icon(Icons.public), title: Text('Encabezados'))
       ],
     );
   }
