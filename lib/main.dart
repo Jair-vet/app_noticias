@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
       theme: miTema,
       title: 'Material App',
       home: TabsPage(),
+      
     );
   }
 }
