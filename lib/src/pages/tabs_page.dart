@@ -18,7 +18,7 @@ class _Navegacion extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BottomNavigationBar(
-      currentIndex: 1,
+      currentIndex: 0,
       items: [
         BottomNavigationBarItem(icon: Icon(Icons.person_outline), title: Text('Para ti')),
         BottomNavigationBarItem(icon: Icon(Icons.public), title: Text('Encabezados'))
