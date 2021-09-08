@@ -24,7 +24,7 @@ class _Navegacion extends StatelessWidget {
     final navegacionModel = Provider.of<_NavegacionModel>(context);
 
     return BottomNavigationBar(
-      currentIndex: 0,
+      currentIndex: navegacionModel.paginaActual,
       onTap: (i) => navegacionModel.paginaActual = i,
       items: [
         BottomNavigationBarItem(icon: Icon(Icons.person_outline), title: Text('Para ti')),
