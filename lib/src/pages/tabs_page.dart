@@ -18,11 +18,14 @@ class TabsPage extends StatelessWidget {
 
 class _Navegacion extends StatelessWidget {
   
-
   @override
   Widget build(BuildContext context) {
+
+    final navegacionModel = Provider.of<_NavegacionModel>(context);
+
     return BottomNavigationBar(
       currentIndex: 0,
+      onTap: (i) => navegacionModel.paginaActual = i,
       items: [
         BottomNavigationBarItem(icon: Icon(Icons.person_outline), title: Text('Para ti')),
         BottomNavigationBarItem(icon: Icon(Icons.public), title: Text('Encabezados'))
