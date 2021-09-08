@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:notificaciones/src/pages/tab1_page.dart';
 import 'package:provider/provider.dart';
 
 
@@ -47,9 +48,7 @@ class _Paginas extends StatelessWidget {
       //physics: BouncingScrollPhysics(),
       physics: NeverScrollableScrollPhysics(),
       children: [
-        Container(
-          color: Colors.red,
-        ),
+        Tab1Screen(),
 
         Container(
           color: Colors.green,
