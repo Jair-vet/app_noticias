@@ -9,7 +9,7 @@ class Tab1Screen extends StatelessWidget {
   Widget build(BuildContext context) {
 
     final newsService = Provider.of<NewsService>(context);
-
+    // newsService.headlines;
 
     return Scaffold(
       body: Center(
