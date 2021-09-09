@@ -16,4 +16,16 @@ class ListaNoticias extends StatelessWidget {
       }
     );
   }
+
+
+}
+
+class _Noticia extends StatelessWidget {
+  
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      child: null,
+    );
+  }
 }
