@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:notificaciones/src/pages/tab1_page.dart';
+import 'package:notificaciones/src/pages/tab2_page.dart';
 import 'package:provider/provider.dart';
 
 
@@ -28,7 +29,9 @@ class _Navegacion extends StatelessWidget {
       currentIndex: navegacionModel.paginaActual,
       onTap: (i) => navegacionModel.paginaActual = i,
       items: [
+        // ignore: deprecated_member_use
         BottomNavigationBarItem(icon: Icon(Icons.person_outline), title: Text('Para ti')),
+        // ignore: deprecated_member_use
         BottomNavigationBarItem(icon: Icon(Icons.public), title: Text('Encabezados'))
       ],
     );
@@ -50,9 +53,7 @@ class _Paginas extends StatelessWidget {
       children: [
         Tab1Screen(),
 
-        Container(
-          color: Colors.green,
-        )
+        Tab2Screen(),
       ],
     );
   }
