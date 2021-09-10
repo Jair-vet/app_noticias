@@ -9,7 +9,13 @@ class NewsService with ChangeNotifier{
   List<Article> headlines = [];
 
   List<Category> categories =[
-
+    Category(Icons.business, 'business'),
+    Category(Icons.tv, 'entertainment'),
+    Category(Icons.devices_other, 'general'),
+    Category(Icons.health_and_safety, 'health'),
+    Category(Icons.science,'science'),
+    Category(Icons.sports,'sports'),
+    Category(Icons.memory, 'technology'),
   ];
 
 

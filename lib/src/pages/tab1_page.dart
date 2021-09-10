@@ -12,6 +12,7 @@ class Tab1Screen extends StatefulWidget {
 
 class _Tab1ScreenState extends State<Tab1Screen>  with AutomaticKeepAliveClientMixin{
   @override
+  // ignore: must_call_super
   Widget build(BuildContext context) {
 
     final headlines = Provider.of<NewsService>(context).headlines;
